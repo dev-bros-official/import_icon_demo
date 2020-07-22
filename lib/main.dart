@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:import_icon_demo/assets/db_icons.dart';
 
 void main() {
   runApp(MyApp());
@@ -59,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
-        child: Icon(Icons.add),
+        child: Icon(DBIcons.logo),
       ),
     );
   }
